@@ -1,0 +1,7 @@
+include deploy_messages.py
+include deploy.py
+include platform_deployer.py
+include requirements.in
+recursive-include templates *
+global-exclude *.pyc
+global-exclude *.DS_Store
